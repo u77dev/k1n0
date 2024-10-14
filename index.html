@@ -11,15 +11,15 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand bg-dark">
+        <nav class="navbar navbar-expand-lg bg-dark fixed-top k-navbar">
             <div class="container-fluid">
                 <a class="btn navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
                     <i class="icon-user k-circle"></i>
                 </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light text-uppercase " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-2 mb-lg-0 k-collapse">
+                        <li class="nav-item dropdown" data-bs-theme="dark">
+                            <a class="nav-link dropdown-toggle text-light text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Выпадающий список
                             </a>
                             <ul class="dropdown-menu">
@@ -400,14 +400,49 @@
     </section>
 
     <section class="k-offcanvas">
-        <div class="container">
+        <div class="container k-offcanvas1">
             <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header bg-dark">
-                    <h5 type="button" class="offcanvas-title" data-bs-dismiss="offcanvas" id="offcanvasExampleLabel"><i class="icon-user k-circle"></i></h5>
+                <div class="offcanvas-header bg-dark text-light">
+                    <div class="row">
+                        <div class="col-6">
+                            <h5 type="button" class="offcanvas-title ml-2 mt-2" data-bs-dismiss="offcanvas" id="offcanvasExampleLabel"><i class="icon-user k-circle"></i></h5>
+                        </div>
+                        <div class="col-6">
+                            <h5 class="mt-4 text-center text-uppercase text-secondary">Меню</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="offcanvas-body text-bg-dark">
                     <div>
-                        Какой-то текст в качестве заполнителя. В реальной жизни у вас могут быть элементы, которые Вы выбрали. Нравится, текст, изображения, списки и т. д.
+                        <div class="line"></div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                            <a href="" class="text-secondary text-decoration-none"><h5>Моя коллекция</h5></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                            <a href="" class="text-secondary text-decoration-none"><h5>В тренде</h5></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                            <a href="" class="text-secondary text-decoration-none"><h5>Новинки</h5></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                            <a href="" class="text-secondary text-decoration-none"><h5>История</h5></a>
+                        </div>
+                    </div>
+                    <div class="row mt-3 mb-3">
+                        <div class="col-6">
+                            <a href="" class="text-secondary text-decoration-none"><h5>Смотреть позже</h5></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="line"></div>
                     </div>
                 </div>
             </div>

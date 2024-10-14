@@ -1,6 +1,11 @@
 :root {
     --color1: #3a4652;
     --color2: #1e2931;
+    --color3: #79838c;
+}
+
+header {
+    height: 108px;
 }
 
 /*mainspace*/
@@ -11,7 +16,8 @@
 
 .k-card {
     width: 250px;
-    height: 300px;
+    height: 350px;
+    box-shadow: 0 10px 20px;
 }
 
 /*offcanvas*/
@@ -19,12 +25,29 @@
     width: 100px;
 }
 
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1px;
+    background-color: var(--color3);
+}
+
 /*Navbar*/
+.k-navbar {
+    height: 108px;
+}
+
+.k-collapse {
+    margin-left: 230px;
+}
+
 .k-circle {
-    color: var(--bs-white);
+    color: var(--color3);
     width: 50px;
     height: 50px;
-    border: 3px solid white;
+    border: 3px solid var(--color3);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -40,6 +63,7 @@
     height: 50px;
     max-width: 300px;
     width: 100%;
+    margin-right: 20px;
 }
 
 .k-btn-search {
@@ -50,18 +74,18 @@
     font-size: 25px;
     border-radius: 50%;
     outline: none;
-    border: none;
     width: 50px;
     height: 50px;
-    color: var(--color1);
-    background-color: white;
+    color: #79838c;
+    border: 3px solid #79838c;
+    background-color: #212529;
     transition: all 0.3s ease;
 }
 
 .k-search {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 25px 25px;
     border: none;
     padding-left: 20px;
@@ -69,6 +93,7 @@
     font-size: 15px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.25);
     transition: all 0.3s ease;
+    margin: 5px;
 }
 #check {
     display: none;
@@ -76,12 +101,14 @@
 
 #check:checked ~ .k-search {
     width: 100%;
+    height: 50px;
 }
 
 #check:checked ~ .k-btn-search {
     border-radius: 0 25px 25px 0;
     color: white;
     background-color: var(--color1);
+    border: none;
 }
 
 /*Color*/
@@ -90,4 +117,17 @@
 }
 .color2 {
     background-color: var(--color2);
+}
+.color3 {
+    background-color: var(--color3);
+}
+
+.color-text1 {
+    color: var(--color1);
+}
+.color-text2 {
+    color: var(--color2);
+}
+.color-text3 {
+    color: var(--color3);
 }
