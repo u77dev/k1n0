@@ -9,12 +9,12 @@ header {
 }
 
 /*footer*/
-footer {
+.footer {
     background-color: #212529;
     color: var(--color3);
 }
 
-footer a {
+.footer a {
     color: var(--color3);
     font-size: 20px;
 }
@@ -23,7 +23,7 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 80%;
     height: 1px;
     background-color: var(--color3);
 }
@@ -31,6 +31,8 @@ footer a {
 
 /*mainspace*/
 .main-space {
+    display: flex;
+    margin-left: 300px;
     background: radial-gradient(ellipse at center,  var(--color1) 0%,var(--color2) 99%);
     background-size: contain;
 }
@@ -66,6 +68,13 @@ footer a {
     margin-top: 247.5px;
     margin-left: 247.5px;
     font-size: 18px;
+}
+
+/*Sidebar*/
+.k-sidebar {
+    width: 300px;
+    height: 100vh;
+    margin-top: 100px;
 }
 
 /*Navbar*/
@@ -135,11 +144,11 @@ footer a {
     transition: all 0.3s ease;
     margin: 5px;
 }
-#check {
+#k-check-search {
     display: none;
 }
 
-#check:checked ~ .k-search-box {
+#k-check-search:checked ~ .k-search-box {
     width: 300px;
     height: 50px;
 }
