@@ -67,7 +67,7 @@
         <nav class="navbar navbar-expand bg-dark fixed-top k-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand m-3">
-                    <i class="icon-user k-circle"></i>
+                    <i class="icon-user k-circle" id="logoBtn"></i>
                 </a>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 <!--                    <ul class="navbar-nav  mb-2 mb-lg-0 k-collapse">-->
@@ -107,257 +107,507 @@
     <section class="main-space">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-danger k-badge">6.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-3">
+                    <h3 class="k-text text-uppercase text-secondary">Фэнтези</h3>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
+            </div>
+            <div class="row" >
+                <div id="carouselExample" class="carousel">
+                    <div class="carousel-inner" id="carousel">
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">9.7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.3</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">8</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" id="leftBtn">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" id="rightBtn">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h3 class="k-text text-uppercase text-secondary">Романтика</h3>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
+            </div>
+            <div class="row" >
+                <div id="carouselExample1" class="carousel">
+                    <div class="carousel-inner" id="carousel1">
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">9.7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.3</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">8</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" id="leftBtn1">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" id="rightBtn1">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-danger k-badge">6.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h3 class="k-text text-uppercase text-secondary">Ужасы</h3>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-danger k-badge">6.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
+            </div>
+            <div class="row" >
+                <div id="carouselExample2" class="carousel">
+                    <div class="carousel-inner" id="carousel2">
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">9.7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.3</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">8</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" id="leftBtn2">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" id="rightBtn2">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <h3 class="k-text text-uppercase text-secondary">Детективы</h3>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
+            </div>
+            <div class="row" >
+                <div id="carouselExample3" class="carousel">
+                    <div class="carousel-inner" id="carousel3">
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">9.7</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.3</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">8</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">6.5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
+                                <span class="position-absolute translate-middle badge rounded-pill k-badge-color k-badge">5</span>
+                                <img src="http://placehold.it/250x250" class="card-img-top" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6"></span>
+                                    </h5>
+                                    <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7"></span>
+                                        <span class="placeholder col-4"></span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-xs-12">
-                    <div class="card mt-5 mx-auto bg-secondary k-card" aria-hidden="true">
-                        <span class="position-absolute translate-middle badge rounded-pill bg-warning k-badge">8.5</span>
-                        <img src="http://placehold.it/250x250" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title placeholder-glow">
-                                <span class="placeholder col-6"></span>
-                            </h5>
-                            <p class="card-text placeholder-glow">
-                                <span class="placeholder col-7"></span>
-                                <span class="placeholder col-4"></span>
-                            </p>
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" id="leftBtn3">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" id="rightBtn3">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
 
-<!--    <section class="k-offcanvas">-->
-<!--        <div class="container k-offcanvas1">-->
-<!--            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">-->
-<!--                <div class="offcanvas-header bg-dark text-light">-->
-<!--                    <div class="row">-->
-<!--                        <div class="col-6">-->
-<!--                            <h5 type="button" class="offcanvas-title ml-2 mt-2" data-bs-dismiss="offcanvas" id="offcanvasExampleLabel"><i class="icon-user k-circle"></i></h5>-->
-<!--                        </div>-->
-<!--                        <div class="col-6">-->
-<!--                            <h5 class="mt-4 text-center text-uppercase text-secondary">Меню</h5>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="offcanvas-body text-bg-dark">-->
-<!--                    <div>-->
-<!--                        <div class="line"></div>-->
-<!--                    </div>-->
-<!--                    <div class="row mt-3 mb-3">-->
-<!--                        <div class="col-6">-->
-<!--                            <a href="" class="text-secondary text-decoration-none"><h5>Моя коллекция</h5></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row mt-3 mb-3">-->
-<!--                        <div class="col-6">-->
-<!--                            <a href="" class="text-secondary text-decoration-none"><h5>В тренде</h5></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row mt-3 mb-3">-->
-<!--                        <div class="col-6">-->
-<!--                            <a href="" class="text-secondary text-decoration-none"><h5>Новинки</h5></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row mt-3 mb-3">-->
-<!--                        <div class="col-6">-->
-<!--                            <a href="" class="text-secondary text-decoration-none"><h5>История</h5></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div class="row mt-3 mb-3">-->
-<!--                        <div class="col-6">-->
-<!--                            <a href="" class="text-secondary text-decoration-none"><h5>Смотреть позже</h5></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <div>-->
-<!--                        <div class="line"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <footer class="footer sticky-bottom">-->
-<!--                    <div class="row justify-content-center">-->
-<!--                        <div class="line-footer"></div>-->
-<!--                    </div>-->
-<!--                    <div class="row justify-content-end mt-4 mb-4">-->
-<!--                        <div class="col-lg-4 col-sm-12 text-center">-->
-<!--                            <a href="https://vk.com"><i class="icon-vkontakte k-circle-footer"></i></a>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-4 col-sm-12 text-center">-->
-<!--                            <a href="https://web.telegram.org"><i class="icon-telegram"></i></a>-->
-<!--                        </div>-->
-<!--                        <div class="col-lg-4 col-sm-12 text-center">-->
-<!--                            <a href=""><i class="icon-phone"></i></a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </footer>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </section>-->
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/carouselScroll.js"></script>
+    <script src="js/badgeColor.js"></script>
+    <script src="js/sideBar.js"></script>
 </body>
 </html>
