@@ -216,18 +216,6 @@ body {
     height: 50px;
 }
 
-/*#check:checked ~ .k-search {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
-
-/*#check:checked ~ .k-btn-search {*/
-/*    border-radius: 0 25px 25px 0;*/
-/*    color: white;*/
-/*    background-color: var(--color1);*/
-/*    border: none;*/
-/*}*/
-
 /*Color*/
 .color1 {
     background-color: var(--color1);
