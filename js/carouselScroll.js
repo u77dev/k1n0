@@ -4,14 +4,22 @@ const leftBtn = document.getElementById('leftBtn');
 const card = document.querySelector('.carousel-item');
 let cardWidth = card.offsetWidth;
 
-rightBtn.addEventListener("click", ()=> {
+rightBtn.addEventListener("click", (qualifiedName, value)=> {
         horizontalScroll.style.scrollBehavior = "smooth";
         horizontalScroll.scrollLeft += cardWidth;
+        rightBtn.setAttribute('disabled', value);
+        setTimeout(function () {
+                rightBtn.removeAttribute('disabled')
+        }, 500);
 });
 
-leftBtn.addEventListener("click", ()=> {
+leftBtn.addEventListener("click", (qualifiedName, value)=> {
         horizontalScroll.style.scrollBehavior = "smooth";
         horizontalScroll.scrollLeft -= cardWidth;
+        leftBtn.setAttribute('disabled', value);
+        setTimeout(function () {
+                leftBtn.removeAttribute('disabled')
+        }, 500);
 });
 
 
@@ -19,14 +27,22 @@ const horizontalScroll1 = document.getElementById('carousel1');
 const rightBtn1 = document.getElementById('rightBtn1');
 const leftBtn1 = document.getElementById('leftBtn1');
 
-rightBtn1.addEventListener("click", ()=> {
+rightBtn1.addEventListener("click", (qualifiedName, value)=> {
         horizontalScroll1.style.scrollBehavior = "smooth";
         horizontalScroll1.scrollLeft += cardWidth;
+        rightBtn1.setAttribute('disabled', value);
+        setTimeout(function () {
+                rightBtn1.removeAttribute('disabled')
+        }, 500)
 });
 
-leftBtn1.addEventListener("click", ()=> {
+leftBtn1.addEventListener("click", (qualifiedName, value)=> {
         horizontalScroll1.style.scrollBehavior = "smooth";
         horizontalScroll1.scrollLeft -= cardWidth;
+        leftBtn1.setAttribute('disabled', value);
+        setTimeout(function () {
+                leftBtn1.removeAttribute('disabled')
+        }, 500);
 });
 
 
