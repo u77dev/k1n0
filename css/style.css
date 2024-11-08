@@ -119,11 +119,15 @@ body {
     font-size: 18px;
 }
 
-.k-badge-color {
+.k-badge-red {
     background-color: #d9404d;
 }
 .k-badge-green {
     background-color: seagreen;
+}
+
+.k-badge-yellow {
+    background-color: goldenrod;
 }
 
 /*Sidebar*/

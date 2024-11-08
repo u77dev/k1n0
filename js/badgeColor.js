@@ -1,5 +1,11 @@
-let badge = document.querySelector('.badge').innerHTML;
-let colorBadge = document.querySelector('.k-badge-color')
-if (badge >= 7 ) {
-    colorBadge.classList.add('k-badge-green');
-}
+let badges = document.querySelectorAll('.badge');
+
+badges.forEach(function(badge) {
+    if (badge.innerHTML >= 7 ) {
+        badge.classList.add('k-badge-green');
+    } else if (badge.innerHTML >= 6) {
+        badge.classList.add('k-badge-yellow');
+    } else {
+        badge.classList.add('k-badge-red');
+    }
+})

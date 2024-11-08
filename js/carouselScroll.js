@@ -10,7 +10,7 @@ rightBtn.addEventListener("click", (qualifiedName, value)=> {
         rightBtn.setAttribute('disabled', value);
         setTimeout(function () {
                 rightBtn.removeAttribute('disabled')
-        }, 500);
+        }, 300);
 });
 
 leftBtn.addEventListener("click", (qualifiedName, value)=> {
@@ -19,7 +19,7 @@ leftBtn.addEventListener("click", (qualifiedName, value)=> {
         leftBtn.setAttribute('disabled', value);
         setTimeout(function () {
                 leftBtn.removeAttribute('disabled')
-        }, 500);
+        }, 300);
 });
 
 
@@ -33,7 +33,7 @@ rightBtn1.addEventListener("click", (qualifiedName, value)=> {
         rightBtn1.setAttribute('disabled', value);
         setTimeout(function () {
                 rightBtn1.removeAttribute('disabled')
-        }, 500)
+        }, 300)
 });
 
 leftBtn1.addEventListener("click", (qualifiedName, value)=> {
@@ -42,7 +42,7 @@ leftBtn1.addEventListener("click", (qualifiedName, value)=> {
         leftBtn1.setAttribute('disabled', value);
         setTimeout(function () {
                 leftBtn1.removeAttribute('disabled')
-        }, 500);
+        }, 300);
 });
 
 
